@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>   
+    <div class="container">
+        <p class="logo">Ciberseguirdad IT</p>
+        <nav>
+            <a href="index.html">Quienes Somos</a>
+            <a href="#nuestros-programas">Nuestros Programas</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+</header> 
+<section id="hero">
+    <div id="formulario" class="container">
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="post">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="motivo">Motivo de contacto:</label><br>
+            <select id="motivo" name="motivo">
+              <option value="consulta">Consulta</option>
+              <option value="solicitud">Solicitud</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+  </section> 
+  
+    </body>
+</html>
